@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+     
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>1910</item> <!-- <item>sensorLocationY</item> -->
+        <item>87</item>   <!-- <item>sensorRadius</item> -->
+    </integer-array>
+    
+</resources>
