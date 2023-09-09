@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Nameless-AOSP Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+     <!-- Whether devices suports in-display fingerprint when screen is off -->
+  <bool name="config_supportsScreenOffUdfps">true</bool>
+
+  <!-- Whether device has physical tri state switch -->
+  <bool name="config_hasAlertSlider">true</bool>
+
+  <!-- The location of the devices physical tri state switch
+       0: Left side
+       1: Right side -->
+  <integer name="config_alertSliderLocation">1</integer>
+
+  <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Nameless-AOSP Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+ <!-- PEX maintainer in About phone -->
+    <string name="pex_maintainer">Maintainer</string>
+    <string name="pex_maintainer_name" translatable="false">Bojan Tanasic (bojantanasic)</string>
+    <string name="pex_maintainer_group" translatable="false">https://forum.xda-developers.com/t/rom-13-0-oneplus8t-unofficial-pixel-extended-rom-v5-9-27-07-2023.4542681/</string>
+
+    
+
+</resources>
